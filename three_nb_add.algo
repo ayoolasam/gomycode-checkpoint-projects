@@ -1,0 +1,17 @@
+1. Start
+2. Initialize variables:
+   - sentence as string
+   - num_characters as integer, set to 0
+   - num_words as integer, set to 0
+   - num_vowels as integer, set to 0
+   - vowels as array of characters {'a', 'e', 'i', 'o', 'u'}
+3. Read the sentence input from the user
+4. Loop through each character in the sentence:
+   - Increment num_characters by 1 for each character
+   - If the character is a space:
+     - Increment num_words by 1
+   - If the character is a vowel (case insensitive):
+     - Increment num_vowels by 1
+5. If the last character in the sentence is not a space, increment num_words by 1 to account for the last word
+6. Display num_characters, num_words, and num_vowels
+7. End
